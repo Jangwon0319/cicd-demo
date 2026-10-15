@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-      return "Bye, GitHub Actions! v1";
+      return "Hello, GitHub Actions! v1";
   }
 }
